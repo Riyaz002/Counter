@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: monospace;
+  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body {
   background: url(/sebastian-svenson-LpbyDENbQQg-unsplash.jpg);
@@ -74,9 +77,7 @@ button {
 
 h1 {
   font-size: 15rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  mix-blend-mode: difference;
-  transition: all 1s;
+  transition: all 0.3s;
   background: rgb(200, 220, 218);
   background: linear-gradient(
     121deg,
