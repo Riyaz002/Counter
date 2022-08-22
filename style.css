@@ -7,16 +7,13 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: url(./sebastian-svenson-LpbyDENbQQg-unsplash.jpg);
+  background: url(/sebastian-svenson-LpbyDENbQQg-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+  width: 100vw;
 }
 
 button {
@@ -24,7 +21,6 @@ button {
   position: fixed;
   right: 0;
   bottom: 0;
-  font-size: 15rem;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -76,7 +72,9 @@ button {
 }
 
 h1 {
-  font-size: 15rem;
+  margin-top: 25vh;
+  font-size: 20vw;
+  text-align: center;
   transition: all 0.3s;
   background: rgb(200, 220, 218);
   background: linear-gradient(
@@ -86,4 +84,10 @@ h1 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 30vw;
+  }
 }
